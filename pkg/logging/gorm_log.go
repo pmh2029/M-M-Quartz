@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"path/filepath"
-	"project-layout/pkg/shared/logging/hooks"
+	"project-layout/pkg/logging/hooks"
 	"time"
 
 	"github.com/sirupsen/logrus"

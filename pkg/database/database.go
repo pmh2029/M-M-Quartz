@@ -3,7 +3,7 @@ package database
 import (
 	"fmt"
 	"os"
-	"project-layout/pkg/shared/logging"
+	"project-layout/pkg/logging"
 	"time"
 
 	"github.com/sirupsen/logrus"

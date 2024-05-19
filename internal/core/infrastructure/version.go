@@ -1,0 +1,3 @@
+package infrastructure
+
+var SERVER_VERSION string
