@@ -1,4 +1,4 @@
-package schema
+package output
 
 import (
 	"strconv"
