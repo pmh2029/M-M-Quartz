@@ -2,7 +2,7 @@ package user
 
 import (
 	"context"
-	"project-layout/internal/core/entity"
+	"project-layout/internal/pkg/entity"
 	"project-layout/pkg/shared/utils"
 
 	"github.com/sirupsen/logrus"
