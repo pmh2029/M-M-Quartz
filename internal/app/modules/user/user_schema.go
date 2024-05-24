@@ -1,7 +1,7 @@
 package user
 
 import (
-	"project-layout/internal/app/modules"
+	"project-layout/internal/app/container"
 	"project-layout/internal/app/modules/user/graphql/output"
 	"project-layout/internal/app/modules/user/graphql/query"
 
@@ -15,11 +15,11 @@ type UserSchema struct {
 }
 
 func NewUserSchema(
-	repositories modules.RepositoryContainer,
+	repositories container.RepositoryContainer,
 ) UserSchema {
 	return UserSchema{
 		Output: output.UserOutputType(),
-		Query:  query.UserQueryType(),
+		Query:  query.UserQueryType(repositories),
 		// Mutation: mutation.UserMutationType(repositories),
 	}
 }
